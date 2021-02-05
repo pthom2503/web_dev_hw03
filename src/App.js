@@ -21,7 +21,7 @@ function SetTitle({text}) {
 
 
 // the structure of this function was pulled from the lecture code - will mark exact functions within
-function Controls({guess, reset, disabled, secret}) {
+function Controls({guess, reset, disabled}) {
     // WARNING: State in a nested component requires
     // careful thought.
     // If this component is ever unmounted (not shown
@@ -145,7 +145,7 @@ function PrevGuesses({guesses, results}) {
 function App() {
     // portions of state based off lecture code
 
-    const [secret, _setSecret] = useState(generate_secret());
+    const [secret, _setSecret] = useState(generate_secret);
     const [guesses, setGuesses] = useState([]);
     const [results, setResults] = useState([]);
     const [warnings, setWarnings] = useState("Welcome. Please enter 4 digits to begin");
