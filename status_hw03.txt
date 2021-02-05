@@ -6,7 +6,7 @@ Patricia Thompson
 
 2. What hostname did you deploy to?
 dialnerd.me
-(he03.dialnerd.me)
+(hw03.dialnerd.me)
 
 3. Which parts of this assignment did you have trouble with, if any?
 Some of my useState's went weird for a while, but nothing bad
