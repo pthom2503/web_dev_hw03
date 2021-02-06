@@ -1,3 +1,5 @@
+// Taken from lecture notes
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
